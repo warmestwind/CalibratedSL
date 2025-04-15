@@ -157,7 +157,7 @@ class Unet(nn.Module):
 
 
 
-        results = {'ev': e, 'var': v, 'u': uncertainty, 'alpha': alpha}
+        results = {'e': e, 'v': v, 'u': uncertainty, 'alpha': alpha}
 
 
         return results
