@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 
 
-class EviLoss_m66(nn.Module):
+class EviLoss(nn.Module):
     def __init__(self, ):
         super(EviLoss_m66, self).__init__()
         self.ce = nn.BCELoss()
