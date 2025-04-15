@@ -4,7 +4,7 @@ import torch.nn as nn
 
 class EviLoss(nn.Module):
     def __init__(self, ):
-        super(EviLoss_m66, self).__init__()
+        super(EviLoss, self).__init__()
         self.ce = nn.BCELoss()
         self.eps = 1e-8
 
