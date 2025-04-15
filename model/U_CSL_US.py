@@ -2,7 +2,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch
 from einops.layers.torch import Rearrange
-from Cross_module import CrossAttention
+from .Cross_module import CrossAttention
 
 
 num_pt = 4
