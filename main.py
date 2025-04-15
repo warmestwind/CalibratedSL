@@ -17,8 +17,8 @@ def main(config):
 
     if config.is_train:
         operator.train(data_loader)
-    else:
-        operator.test(data_loader)
+    //else:
+       // operator.test(data_loader)
 
 
 
